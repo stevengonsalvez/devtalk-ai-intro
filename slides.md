@@ -278,13 +278,25 @@ database "MySql" {
 src: ./pages/introduction.md
 hide: false
 ---
-
 ---
 src: ./pages/softwaredevelopment.md
 hide: false 
 ---
 
+---
+src: ./pages/thefour.md
+hide: false 
+---
 
+---
+src: ./pages/rules.md
+hide: false 
+---
+
+---
+src: ./pages/context.md
+hide: false 
+---
 
 ---
 
