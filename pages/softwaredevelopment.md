@@ -86,6 +86,7 @@ From "Pure Viber" to "Engineering Vibist":
   <div style="background-color: #046b79; color: #e5ec03;" class="rounded px-4 py-2 font-semibold">Prompts</div>
   <div style="background-color: #046b79; color: #e5ec03;" class="rounded px-4 py-2 font-semibold">Rules</div>
   <div style="background-color: #046b79; color: #e5ec03;" class="rounded px-4 py-2 font-semibold">Context</div>
+    <div style="background-color: #046b79; color: #e5ec03;" class="rounded px-4 py-2 font-semibold">RAG</div>
   <div style="background-color: #046b79; color: #e5ec03;" class="rounded px-4 py-2 font-semibold">Tools</div>
 </div>
 
