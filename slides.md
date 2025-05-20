@@ -299,5 +299,14 @@ hide: false
 ---
 
 ---
+src: ./pages/rag.md
+hide: false 
+---
+
+---
+src: ./pages/tools.md
+hide: false 
+---
+---
 
 # Links
