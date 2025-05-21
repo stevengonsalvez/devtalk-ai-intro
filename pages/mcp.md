@@ -48,27 +48,30 @@ Think of it like this: if you define a tool using MCP, you should ideally be abl
 This means more transparency in what the tool does, better security by being explicit about permissions and data, and a much smoother developer experience.
 It's about moving from ad-hoc integrations to a more engineered, interoperable ecosystem for AI tools.
 ---
+layout: cover
+background: https://images.unsplash.com/photo-1533134486753-c833f0ed4866?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+---
 
-<h2 style="color: #046b79; font-size: 1.6rem; font-weight: bold;">MCP Components: What Makes Up a Model Context?</h2>
+<h2 style="color: #046b79; font-size: 1.6rem; font-weight: bold;">MCP Components: What Makes Up?</h2>
 <div style="margin-top: 1.5rem; font-size: 0.95rem; gap: 1.5rem; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: start;">
   <div>
     <ul style="list-style-type: disc; margin-left: 1rem;">
-      <li><strong>Tools</strong>: Functions an LLM can call—these can be APIs, commands, data tools, or any thing encapsulated standard function. Output is returned in a specific JSON(RPC) format.</li>
-      <li><strong>Resources</strong>: Assets pretty much:  Data, files.. static stuff!</li>
-      <li><strong>Prompts</strong>: Prompts , prompt templates that are related to the tool invocation</li>
-      <li><strong>Sampling</strong>: Fairly new addition Controls for temperature, top-p, and other generation settings. Can dynamically control how clever and less precise or how pedantic and precise you want the LLM to be - eg: when you ask about "API integration" it may lower "creativity". It could do further more with adding bias to context etc.</li>
-      <li><strong>Schemas</strong>: Structured definitions for inputs/outputs (validation, safety)</li>
+      <li><strong style="color: #e5ec03;">🛠️ Tools</strong>: Functions an LLM can call—these can be APIs, commands, data tools, or any thing encapsulated standard function.</li>
+      <li><strong style="color: #e5ec03;">📦 Resources</strong>: Assets pretty much:  Data, files.. static stuff!</li>
+      <li><strong style="color: #e5ec03;">💬 Prompts</strong>: Prompts , prompt templates that are related to the tool invocation</li>
+      <li><strong style="color: #e5ec03;">🎛️ Sampling</strong>: Fairly new addition Controls for temperature, top-p, and other generation settings. Can dynamically control how clever and less precise or how pedantic and precise you want the LLM to be - eg: when you ask about "API integration" it may lower "creativity". It could do further more with adding bias to context etc.</li>
+      <li><strong style="color: #e5ec03;">📑 Schemas</strong>: Structured definitions for inputs/outputs (validation, safety)</li>
     </ul>
   </div>
   <div>
     <ul style="list-style-type: disc; margin-left: 1rem;">
-      <li><strong>Connections: How do the clients call these thingies</strong>:</li>
+      <li><strong style="color: #e5ec03;">🔗 Connections: How do the clients call these thingies</strong>:</li>
       <ul style="margin-left: 1rem;">
         <li>Local (stdio/stdout): Run tools on your machine</li>
         <li>HTTP/SSE: Connect to remote APIs, support for server-sent events (like having two phones to chat to the same person - http one way and SSE the other) </li>
         <li>Fairly new : Streaming: Real-time data and responses - this is probably going to be the future</li>
       </ul>
-      <li><strong>OAuth support</strong>: Fairly new, Secure authentication for protected APIs and resources</li>
+      <li><strong style="color: #e5ec03;">🔐 OAuth support</strong>: Fairly new, Secure authentication for protected APIs and resources</li>
       <li>...and more (versioning, metadata, access control)</li>
     </ul>
   </div>
