@@ -9,7 +9,12 @@ background: https://source.unsplash.com/collection/94734566/1920x1080 # Or a coo
 
 <div class="pt-12">
   <span class="px-2 py-1 rounded bg-primary bg-opacity-20">DevTalk</span>
-  <span class="px-2 py-1 rounded bg-secondary bg-opacity-20">Your Name / Team</span>
+  <span class="px-2 py-1 rounded bg-secondary bg-opacity-20">steven gonsalvez</span>
+  <div class="mt-4 text-sm text-gray-500">
+    <a href="https://mobius-gitlab.bt.com/software-engineering/devtalk-aistuff" target="_blank" rel="noopener">
+      View this slide deck at mobius-gitlab.bt.com/software-engineering/devtalk-aistuff
+    </a>
+  </div>
 </div>
 
 :: HIDE ::
