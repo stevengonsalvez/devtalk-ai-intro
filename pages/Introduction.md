@@ -1,18 +1,18 @@
 ---
 layout: cover
 class: text-center
-background: https://source.unsplash.com/collection/94734566/1920x1080 # Or a cool AI-generated abstract
+background: linear-gradient(135deg, #667eea 0%, #764ba2 100%)
 ---
 
-# AI Roundup: Time to Vibe!
+# AI Roundup: Just one more prompt!
 ## From Prompts to Production-Ready Agentic Systems
 
 <div class="pt-12">
   <span class="px-2 py-1 rounded bg-primary bg-opacity-20">DevTalk</span>
   <span class="px-2 py-1 rounded bg-secondary bg-opacity-20">steven gonsalvez</span>
   <div class="mt-4 text-sm text-gray-500">
-    <a href="https://mobius-gitlab.bt.com/software-engineering/devtalk-aistuff" target="_blank" rel="noopener">
-      View this slide deck at mobius-gitlab.bt.com/software-engineering/devtalk-aistuff
+    <a href="https://github.com/stevengonsalvez/devtalk-ai-intro" target="_blank" rel="noopener">
+      View this slide deck at github.com/stevengonsalvez/devtalk-ai-intro
     </a>
   </div>
 </div>
@@ -22,40 +22,34 @@ background: https://source.unsplash.com/collection/94734566/1920x1080 # Or a coo
 Welcome everyone! Today, we're diving into the exciting world of AI, specifically focusing on how we can move beyond just "vibing" with cool demos to becoming "Engineering Vibists" – folks who build robust, scalable, and truly useful AI-powered applications.
 
 The goal isn't just to use AI, but to use it *smartly*. We'll cover the basics, explore agentic systems, and then really dig into the practical aspects of making AI work for us in software development. Let's get started!
----
 
-## 1. Generative AI: The Spark
+Error: Raw mode is not supported on the current process.stdin, which Ink uses as input stream by default.
+Read about how to prevent this error on https://github.com/vadimdemedes/ink/#israwmodesupported
+    at handleSetRawMode (file:///home/claude-user/.npm-global/lib/node_modules/@anthropic-ai/claude-code/cli.js:807:3853)
+    at file:///home/claude-user/.npm-global/lib/node_modules/@anthropic-ai/claude-code/cli.js:816:259
+    at eF (file:///home/claude-user/.npm-global/lib/node_modules/@anthropic-ai/claude-code/cli.js:332:21530)
+    at oX (file:///home/claude-user/.npm-global/lib/node_modules/@anthropic-ai/claude-code/cli.js:332:41141)
+    at file:///home/claude-user/.npm-global/lib/node_modules/@anthropic-ai/claude-code/cli.js:332:39313
+    at XF0 (file:///home/claude-user/.npm-global/lib/node_modules/@anthropic-ai/claude-code/cli.js:326:8828)
+    at Immediate.DF0 [as _onImmediate] (file:///home/claude-user/.npm-global/lib/node_modules/@anthropic-ai/claude-code/cli.js:326:9247)
+    at process.processImmediate (node:internal/timers:483:21)
+╭──────────────────────────╮
+│ ✻ Welcome to Claude Code │
+╰──────────────────────────╯
 
-<div class="grid grid-cols-2 gap-8 items-center">
-<div>
 
-- **What is it?** AI that *creates* new, original content.
-  - Text, images, code, audio, video...
-- **How?** Learns patterns from vast datasets.
-- **Key Enablers:** Large Language Models (LLMs), Diffusion Models, GANs (Generative adversarial networks) - videos etc.
-- **Impact:** Revolutionizing content creation, problem-solving, and automation.
+  ERROR  Raw mode is not supported on the current process.stdin, which Ink uses as input stream by default.
+        Read about how to prevent this error on https://github.com/vadimdemedes/ink/#israwmodesupported
 
-</div>
-<div>
-
-<!-- You can use an image here, e.g., a collage of AI-generated art/text -->
-<img src="https://images.unsplash.com/photo-1677756119517-756a188d2d94?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" class="rounded-lg shadow-lg max-h-80 mx-auto" alt="Generative AI concept"/>
-
-</div>
-</div>
-
-:: HIDE ::
-:: NOTES ::
-(1-2 mins)
-Alright, let's start with a quick baseline. Generative AI – you've all heard of it, probably used it.
-Think ChatGPT, Midjourney, GitHub Copilot.
-It's not just about regurgitating information; it's about synthesizing knowledge to produce something novel.
-Under the hood, these are complex models trained on terabytes of data, allowing them to understand and generate human-like (or even superhuman) outputs.
-This is the foundation for much of what we'll discuss today.
----
-
-## 2. Enter the Agents: AI with Agency
-
+ - Read about how to prevent this error on https://github.com/vadimdemedes/ink/#israwmodesupported
+ - handleSetRawMode (.npm-global/lib/node_modules/@anthropic-ai/claude-code/cli.js:807:3853)
+ -  (.npm-global/lib/node_modules/@anthropic-ai/claude-code/cli.js:816:259)
+ - eF (.npm-global/lib/node_modules/@anthropic-ai/claude-code/cli.js:332:21530)
+ - oX (.npm-global/lib/node_modules/@anthropic-ai/claude-code/cli.js:332:41141)
+ -  (.npm-global/lib/node_modules/@anthropic-ai/claude-code/cli.js:332:39313)
+ - XF0 (.npm-global/lib/node_modules/@anthropic-ai/claude-code/cli.js:326:8828)
+ - Immediate.DF0 (.npm-global/lib/node_modules/@anthropic-ai/claude-code/cli.js:326:9247)
+ - process.processImmediate (node:internal/timers:483:21)
 <div class="mt-8 columns-2 gap-8">
 
 - **What are AI Agents?** Systems that can perceive their environment, make decisions, and take actions to achieve specific goals.
@@ -87,4 +81,3 @@ Frameworks like LangChain, AutoGen, and CrewAI provide the plumbing to build the
 - How they access and use tools (like a calculator, a search engine, or your codebase).
 - How they remember previous steps (memory).
 This is moving from just generating text to accomplishing complex tasks.
----

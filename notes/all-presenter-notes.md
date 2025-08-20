@@ -53,7 +53,7 @@ An "Engineering Vibist" starts like any good software project: with clear requir
 Write a PRD, or at least a clear spec. Use your favorite template, or ask an LLM to help you generate one based on best practices.
 Then, the crucial step: break it down. If you know what you're building, you can guide an AI (or yourself) much more effectively.
 AI chat engines like Claude, ChatGPT, or Gemini are excellent for this brainstorming and decomposition phase.
-Internally at BT, Copilot can also be quite helpful for initial task breakdown, though for engineering, this naturally flows into Jira.
+Internally, Copilot can also be quite helpful for initial task breakdown, though for engineering, this naturally flows into Jira.
 The point is: invest effort in defining *what* needs to be built before asking the AI *how* to build it.
 A well-structured problem is much easier for an LLM to "understand" and assist with.
 ---

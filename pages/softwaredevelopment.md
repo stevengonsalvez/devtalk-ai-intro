@@ -51,25 +51,25 @@ This isn't science fiction; early versions of these capabilities are emerging.
 The key is moving from ad-hoc prompting for code snippets to designing systems where AI plays a more integrated role. This is where we transition from a "pure viber" just trying out prompts, to an "Engineering Vibist" who thinks about systems.
 ---
 
-# 4. Key Parts to "Vibing" Like an Engineer
+# 4. Key Parts to "crafting" Like an Engineer
 
 ## Mastering the Craft of AI Integration
 
-From "Pure Viber" to "Engineering Vibist":
+From "Amateur Viber" to "Engineering Craftsman":
 
 <div class="grid grid-cols-2 gap-8 items-start">
 
   <div>
-    <div class="font-bold text-lg mb-2 text-primary-700">Pure Viber</div>
+    <div class="font-bold text-lg mb-2 text-primary-700">Amateur Viber</div>
     <div>
       Experiments with AI by tossing in prompts and seeing what comes out. Cares most about the UI and the surface, often ignoring structure, process, or deeper engineering. Treats AI like a magic 8-ball: ask, get something, move on.
     </div>
   </div>
 
   <div>
-    <div class="font-bold text-lg mb-2 text-primary-700">Engineering Vibist</div>
+    <div class="font-bold text-lg mb-2 text-primary-700">Software Craftsman</div>
     <div>
-      Composes software with massive aid from tools—treats AI as a junior collaborator. Uses prompts, context, and structure to guide the AI, integrating its output into robust workflows and systems.
+      Composes software with massive aid from tools—treats AI as a collaborator. Uses prompts, context, and structure to guide the AI, integrating its output into robust workflows and systems.
     </div>
   </div>
 

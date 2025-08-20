@@ -1,9 +1,9 @@
 ## 4.1 Product Management: Think Product, Not Just Prompt
 
-- **Don’t just start prompting away—Vibist or Engineer, the approach is the same:**
+- **Don't just start prompting away— Do Proper Software Engineering:**
 
   <span class="text-sm text-gray-600 mb-4 block">
-    Start with a Product Requirement Document (PRD). Get your idea out of your head and into a clear spec.
+    Define requirements (PRDs, Epics, Features) → Design architecture → Write tests → Implement code → Review & refactor → Deploy & monitor. AI augments each step, but doesn't replace the discipline. Structure beats chaos, even with the smartest AI.
   </span>
 
 <ul class="space-y-4 text-sm">
@@ -13,7 +13,7 @@
   </li>
   <li class="transition-transform duration-300 hover:scale-105 flex items-center">
     <span class="animate-spin text-xl mr-2">🪄</span>
-    Once you have a PRD, break it down into small, manageable chunks. This is classic software engineering—no different from how you’d tackle any project at BT or elsewhere.
+    Once you have a PRD, break it down into small, manageable chunks. This is classic software engineering—no different from how you’d tackle any project.
   </li>
   <li class="transition-transform duration-300 hover:scale-105 flex items-center">
     <span class="animate-pulse text-xl mr-2">🧩</span>
@@ -38,7 +38,7 @@ An "Engineering Vibist" starts like any good software project: with clear requir
 Write a PRD, or at least a clear spec. Use your favorite template, or ask an LLM to help you generate one based on best practices.
 Then, the crucial step: break it down. If you know what you're building, you can guide an AI (or yourself) much more effectively.
 AI chat engines like Claude, ChatGPT, or Gemini are excellent for this brainstorming and decomposition phase.
-Internally at BT, Copilot can also be quite helpful for initial task breakdown, though for engineering, this naturally flows into Jira.
+Internally, Copilot can also be quite helpful for initial task breakdown, though for engineering, this naturally flows into Jira.
 The point is: invest effort in defining *what* needs to be built before asking the AI *how* to build it.
 A well-structured problem is much easier for an LLM to "understand" and assist with.
 ---

@@ -5,7 +5,7 @@
       <li><strong>It's not just vibe coding anymore...</strong></li>
       <li>I vibed up this entire slide deck</li>
       <li>Vibe Designer: Start vibing in Figma, just describe design out, vibe out the code and prototypes in real time—<em>live demo</em></li>
-      <li>Let FEP docs and Loop Design System do the heavy lifting—RAG fetches the rules, MCP keeps you honest, and suddenly your buttons are always on brand (no more “where’s that component?” panic)</li>
+      <li>Let Platform docs and Design System do the heavy lifting—RAG fetches the rules, MCP keeps you honest, and suddenly your buttons are always on brand (no more “where’s that component?” panic)</li>
       <li>Vibe out newsletters, blog posts, or reports</li>
       <li>vibe out boring decks and word documents, or vibe manage your entire Jira clutter</li>
     </ul>
