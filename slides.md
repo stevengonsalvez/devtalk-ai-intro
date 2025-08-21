@@ -9,6 +9,11 @@ hide: false
 ---
 
 ---
+src: ./pages/demo-kickoff.md
+hide: false
+---
+
+---
 src: ./pages/gen-ai-spark.md
 hide: false
 ---

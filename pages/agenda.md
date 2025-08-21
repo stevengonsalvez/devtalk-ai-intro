@@ -20,7 +20,7 @@ layout: center
 </div>
 
 <div style="text-align: center; margin-top: 20px; font-size: 1.2em; font-weight: bold; color: white;">
-  Buckle up, it's gonna be a wild ride! 🎢
+  Lets go! 🎢
 </div>
 
 </div>
